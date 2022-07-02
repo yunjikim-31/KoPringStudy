@@ -8,6 +8,7 @@ class MainController {
 
     @GetMapping("/")
     fun displayIndex(): String {
+        println("test")
         return "test response"
     }
 
